@@ -14,7 +14,6 @@ jobs:
         
       - name:  compile the code
         run: mvn compile
-
         
       - name: test the code
         run: mvn test
