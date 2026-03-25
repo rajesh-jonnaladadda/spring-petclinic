@@ -4,7 +4,6 @@ on:
   pull_request: 
     branches: 
       - dev 
-      
 jobs: 
   build: 
     runs-on: ubuntu-latest
@@ -15,8 +14,12 @@ jobs:
       - name:  compile the code
         run: mvn compile
 
+        
       - name: test the code
         run: mvn test
         
       - name: create the package
         run: mvn package  
+
+
+
