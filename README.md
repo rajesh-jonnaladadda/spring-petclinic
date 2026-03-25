@@ -132,7 +132,7 @@ The following items should be installed in your system:
 
     - A run configuration named `PetClinicApplication` should have been created for you if you're using a recent Ultimate version. Otherwise, run the application by right-clicking on the `PetClinicApplication` main class and choosing `Run 'PetClinicApplication'`.
 
-1. Navigate to the Petclinic
+1. Navigate to the Petclinic    
 
     Visit [http://localhost:8080](http://localhost:8080) in your browser.
 
