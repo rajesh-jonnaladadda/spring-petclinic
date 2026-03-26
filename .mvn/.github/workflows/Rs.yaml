@@ -1,21 +1,24 @@
----
-name: pr-workflow
-on: 
+--- 
+name: learing
+on:
   pull_request: 
     branches: 
-      - dev 
-jobs: 
+      - dev
+      
+jobs:       
   build: 
     runs-on: ubuntu-latest
     steps: 
-      - name: get the code
+      - name: get the code 
         uses: actions/checkout@v4
-        
-      - name:  compile the code
-        run: mvn compile
 
+      - name: compile the code 
+        run: mvn compile 
+        
       - name: test the code
         run: mvn test
         
       - name: create the package
-        run: mvn package  
+        run: mvn package   
+
+
