@@ -13,6 +13,8 @@ stringData:
   username: "user"
   password: "pass"
 
+
+
 ---
 apiVersion: v1
 kind: Service
